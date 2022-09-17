@@ -3,6 +3,16 @@ let generatePasswordBtn = document.getElementById("generatePasswordBtn");
 // When generate password Btn is fire click event
 generatePasswordBtn.addEventListener("click", () => {
   console.log("generatePasswordBtnClicked");
+
+  let passwordOne = [];
+  for (let i = 0; i < 8; i++) {
+    let randomNumber = Math.floor(Math.random() * characters.length);
+    if (randomNumber === 91) {
+      alert("you got a 91");
+    }
+    passwordOne.push(randomNumber);
+  }
+  console.log(passwordOne);
 });
 
 const characters = [
