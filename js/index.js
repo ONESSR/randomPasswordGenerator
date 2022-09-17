@@ -7,24 +7,29 @@ generatePasswordBtn.addEventListener("click", () => {
   let passwordOne = [];
   let passwordTwo = [];
   for (let i = 0; i < 8; i++) {
+    // generate a random number up to the length of characters array 8 times
     let randomNumber = Math.floor(Math.random() * characters.length);
     let randomNumberTwo = Math.floor(Math.random() * characters.length);
 
+    // use the random number as an index to get a random character from the characters array and push to newArray to store value
     passwordOne.push(characters[randomNumber]);
     passwordTwo.push(characters[randomNumberTwo]);
   }
   console.log(passwordOne);
   console.log(passwordTwo);
+  // get the html element and put in the return value of the function call using password as expression
   let displayP1 = (document.getElementById("passwordOne").textContent =
     removeCommas(passwordOne));
   let displayP2 = (document.getElementById("passwordTwo").textContent =
     removeCommas(passwordTwo));
 });
 
+// turn array into a string and remove the commas
 function removeCommas(passw) {
   return passw.toString().replace(/,/g, "");
 }
 
+// array of all available characters to use in random password
 const characters = [
   "A",
   "B",
