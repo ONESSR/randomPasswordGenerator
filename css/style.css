@@ -11,8 +11,49 @@
 
 :root {
   --mainFontFamily: "Karla", sans-serif;
+  --mainBgColor: #273549;
+  --textWhite: #fff;
+  --borderRadius: 8px;
+  --mainTitleFontSize: 40px;
+  --mainTitleWeightExB: 800;
+  --mainTitleLineHeight: 1.2;
+
+  --GoGreenColor: #4adf86;
+  --pFontSize: 20px;
 }
 
 body {
   font-family: var(--mainFontFamily);
+  color: var(--textWhite);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--mainBgColor);
+  width: 100%;
+  max-width: 550px;
+  height: 550px;
+  border-radius: var(--borderRadius);
+  padding: 115px 52px;
+}
+
+.mainTitle {
+  font-size: var(--mainTitleFontSize);
+  font-weight: var(--mainTitleWeightExB);
+  line-height: var(--mainTitleLineHeight);
+}
+.titleAlt {
+  display: inline-block;
+  color: var(--GoGreenColor);
+}
+
+.subTitle {
+  margin-top: 8px;
+  font-size: var(--pFontSize);
 }
