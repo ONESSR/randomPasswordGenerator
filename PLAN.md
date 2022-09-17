@@ -19,6 +19,8 @@ Create a random password generator using html, css & javascript
 - look for patterns
 - psuedo code the algo
 - code the functionality
+  - Generate password btn: onclick/addEventListener"click"
+  -
 
 ### STRETCH GOALS
 
