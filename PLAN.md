@@ -13,6 +13,7 @@ Create a random password generator using html, css & javascript
 - basic file/folder setup
   - index.html, css: style.css + mediaqueries.css, js: index.js, \_assets folder
 - sketch layout
+- ![Sketch & Wireframes of random password generator layout & components](./_assets/sketchAndWireframesOfLayoutAndComponents.png)
   - think about component tree and identify components required
 - code component structure
 - look for patterns
