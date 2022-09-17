@@ -15,6 +15,8 @@ generatePasswordBtn.addEventListener("click", () => {
   }
   console.log(passwordOne);
   console.log(passwordTwo);
+  let displayP1 = (document.getElementById("passwordOne").textContent =
+    passwordOne.toString().replace(/,/g, ""));
 });
 
 const characters = [

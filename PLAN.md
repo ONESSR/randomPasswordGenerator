@@ -31,6 +31,8 @@ Create a random password generator using html, css & javascript
       - turn array toString() for string password
       - get password elements by id from html
       - set textContent to value of strings respectively
+      - remove commas from string with .replace(/,/g, "")
+      - repeat for second password
 
 ### STRETCH GOALS
 
