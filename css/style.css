@@ -20,6 +20,9 @@
 
   --GoGreenColor: #4adf86;
   --pFontSize: 20px;
+
+  --mainBodyFontSizeSm: 16px;
+  --MediumWeight: 500;
 }
 
 body {
@@ -56,4 +59,23 @@ body {
 .subTitle {
   margin-top: 8px;
   font-size: var(--pFontSize);
+}
+
+.generatePasswordBtnContainer {
+  margin-top: 48px;
+}
+.generatePasswordBtn {
+  padding: 8px 16px;
+  font-family: var(--mainFontFamily);
+  font-size: var(--mainBodyFontSizeSm);
+  font-weight: var(--MediumWeight);
+  border-radius: var(--borderRadius);
+  background-color: var(--GoGreenColor);
+  color: var(--textWhite);
+  border: none;
+  margin-bottom: 32px;
+}
+
+hr {
+  border: 1px solid #2f3e53;
 }
