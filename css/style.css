@@ -35,6 +35,11 @@ body {
   height: 100vh;
 }
 
+.lock {
+  font-size: 36px;
+  margin-right: 4px;
+}
+
 .mainContainer {
   position: absolute;
   top: 50%;
@@ -52,8 +57,11 @@ body {
   font-weight: var(--mainTitleWeightExB);
   line-height: var(--mainTitleLineHeight);
 }
+.generate {
+  display: block;
+  /* background-color: red; */
+}
 .titleAlt {
-  display: inline-block;
   color: var(--GoGreenColor);
 }
 
