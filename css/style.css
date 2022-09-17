@@ -91,6 +91,14 @@ body {
   border: none;
 }
 
+.generatePasswordBtn:hover {
+  background-color: #51cf66;
+}
+
+.generatePasswordBtn:active {
+  background-color: #37b24d;
+}
+
 hr {
   margin: 32px 0;
   border: 1px solid var(--subtileBlueColor);
