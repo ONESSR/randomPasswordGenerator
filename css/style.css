@@ -21,8 +21,9 @@
   --GoGreenColor: #4adf86;
   --pFontSize: 20px;
 
+  --mediumFontSize: 18px;
   --mainBodyFontSizeSm: 16px;
-  --MediumWeight: 700;
+  --mediumWeight: 700;
 
   --subtileBlueColor: #273549;
 }
@@ -59,7 +60,6 @@ body {
 }
 .generate {
   display: block;
-  /* background-color: red; */
 }
 .titleAlt {
   color: var(--GoGreenColor);
@@ -79,7 +79,7 @@ body {
 .passwordTwo {
   font-family: var(--mainFontFamily);
   font-size: var(--mainBodyFontSizeSm);
-  font-weight: var(--MediumWeight);
+  font-weight: var(--mediumWeight);
   border-radius: var(--borderRadius);
   cursor: pointer;
 }
@@ -87,8 +87,9 @@ body {
 .generatePasswordBtn {
   padding: 12px 24px;
   background-color: var(--GoGreenColor);
-  color: var(--textWhite);
+  color: var(--mainBgColor);
   border: none;
+  font-size: var(--mediumFontSize);
 }
 
 .generatePasswordBtn:hover {
