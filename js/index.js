@@ -5,12 +5,16 @@ generatePasswordBtn.addEventListener("click", () => {
   console.log("generatePasswordBtnClicked");
 
   let passwordOne = [];
+  let passwordTwo = [];
   for (let i = 0; i < 8; i++) {
     let randomNumber = Math.floor(Math.random() * characters.length);
+    let randomNumberTwo = Math.floor(Math.random() * characters.length);
 
     passwordOne.push(characters[randomNumber]);
+    passwordTwo.push(characters[randomNumberTwo]);
   }
   console.log(passwordOne);
+  console.log(passwordTwo);
 });
 
 const characters = [
