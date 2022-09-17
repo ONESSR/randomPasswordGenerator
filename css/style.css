@@ -103,3 +103,7 @@ hr {
   width: 50%;
   text-align: center;
 }
+
+.placeholder {
+  opacity: 0%;
+}

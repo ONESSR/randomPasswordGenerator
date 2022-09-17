@@ -37,5 +37,9 @@ Create a random password generator using html, css & javascript
 ### STRETCH GOALS
 
 - Click to copy password feature
+  - add icon to each password area (try materialicons and lower opacity)
+    - on click get the value of the div
+    - on click have a prompt below password area to say copy was successful
+    - use a set timeout on the visibility?
 - Choose password made of letters of symbols
 - Select length of random password
