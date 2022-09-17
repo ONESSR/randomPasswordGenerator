@@ -111,12 +111,22 @@ hr {
   justify-content: space-between;
 }
 
+.p1Container,
+.p2Container {
+  width: 50%;
+}
+
+.pLabel {
+  margin-bottom: 8px;
+  color: var(--textWhite);
+  opacity: 20%;
+}
+
 .passwordOne,
 .passwordTwo {
   padding: 12px 16px;
   background-color: var(--subtileBlueColor);
   color: var(--GoGreenColor);
-  width: 50%;
   text-align: center;
 }
 

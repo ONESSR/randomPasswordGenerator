@@ -15,8 +15,8 @@
   .passwordsContainer {
     flex-direction: column;
   }
-  .passwordOne,
-  .passwordTwo {
+  .p1Container,
+  .p2Container {
     width: 100%;
   }
 }
