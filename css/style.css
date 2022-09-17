@@ -43,7 +43,6 @@ body {
   background-color: var(--mainBgColor);
   width: 100%;
   max-width: 550px;
-  height: 550px;
   border-radius: var(--borderRadius);
   padding: 115px 52px;
 }
