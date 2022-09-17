@@ -21,6 +21,9 @@ Create a random password generator using html, css & javascript
 - code the functionality
   - Generate password btn: onclick/addEventListener"click", function ()=>{}
   - create array of potential characters
+  - generate random character
+    - Math.floor(Math.random()\*character.length)
+    - Loop over characters array and generate a random set of characters of average length(8/9 characters)
 
 ### STRETCH GOALS
 
