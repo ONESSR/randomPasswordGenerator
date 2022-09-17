@@ -69,14 +69,15 @@ body {
 .generatePasswordBtn,
 .passwordOne,
 .passwordTwo {
-  padding: 8px 16px;
   font-family: var(--mainFontFamily);
   font-size: var(--mainBodyFontSizeSm);
   font-weight: var(--MediumWeight);
   border-radius: var(--borderRadius);
+  cursor: pointer;
 }
 
 .generatePasswordBtn {
+  padding: 12px 24px;
   background-color: var(--GoGreenColor);
   color: var(--textWhite);
   border: none;
@@ -96,6 +97,7 @@ hr {
 
 .passwordOne,
 .passwordTwo {
+  padding: 12px 16px;
   background-color: var(--subtileBlueColor);
   color: var(--GoGreenColor);
   width: 50%;

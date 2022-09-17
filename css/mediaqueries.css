@@ -5,6 +5,9 @@
   :root {
     --mainTitleFontSize: 32px;
   }
+  .generatePasswordBtn {
+    width: 100%;
+  }
   .passwordsContainer {
     flex-direction: column;
   }
